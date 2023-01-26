@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	background-image: url("https://1.bp.blogspot.com/-fscXsPqpuCI/Xyvfg-N_Z6I/AAAAAAAAAVU/V8ZltlIVSD4xCgkHCSeeRXU2yA-8MEd6wCLcBGAsYHQ/s1920/National-Flag-of-India.jpg");
+	background-repeat: no-repeat;
+	background-size:  cover;
+	font-family:Helvetica;
+	margin-bottom:30px;
+}
+
+nav{
+	background-color: red;
+	font-size: 30px;
+	color: white;
+	display: flex;
+	justify-content: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav a{
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+nav a:hover{
+	color: black;
+}
+
+.form-container {
+	opacity:1;
+	background-color:#FFFFD0;
+	font-size:30px;
+	width:40%;
+	height:45%;
+	display:flex;
+	justify-content:center;
+	margin-left:58%;
+	margin-top:8%;
+	border-radius:20px;
+	padding-bottom:30px;
+	padding-top:20px;
+	
+}
+
+.form-container input,button,textarea,select {
+	width:70%;
+	height:40px;
+	margin-top:25px;
+	margin-bottom:25px;
+	margin-left: 20%;
+	font-size:25px;
+	text-align:center;
+	background-color:#009EFF;
+    border-radius:20px;
+}
+
+.form-container label{
+	margin-left:20%;
+	text-align:center;
+	font-size:25px;
+	
+}
+
+.form-container button,select{
+	height:50px;
+	cursor:pointer;
+}
+
+.form-container h3{
+	margin-left: 32%;
+}
+.form-container a{
+	margin-left:48%;
+	margin-top:20px;
+	color:black;
+}
+
+.form-container a:hover{
+	color:blue;
+}
+
+.welcome-form{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.about{
+    font-family: sans-serif;
+	font-size:35px;
+	width:100vx;
+	height:80vh;
+	padding-left:30px;
+	opacity:0.8;
+	background-color:#FEFCF3;
+}
+.about p{
+	padding-top:40px;
+	font-weight: bold;
+}
+
+.checkTable{
+	background-color:#FFF7E9;
+	height:87vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size: 30px;
+}
+
+.checkTable img{
+	height:100px;
+	width:100px;
+}
+
+.checkTable td,th{
+	padding: 8px 60px;
+}
